@@ -5,8 +5,8 @@ on:
     branches:
       - master
     paths-ignore:
-      - '**.md'
-      - '.github/workflows/issue_moderator.yml'
+      - "**.md"
+      - ".github/workflows/issue_moderator.yml"
 
 concurrency:
   group: ${{ github.workflow }}
@@ -164,7 +164,6 @@ jobs:
     needs:
       - build_multisrc
       - build_individual
-    if: "github.repository == 'tachiyomiorg/tachiyomi-extensions'"
     runs-on: ubuntu-latest
     steps:
       - name: Download APK artifacts
