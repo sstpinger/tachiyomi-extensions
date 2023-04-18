@@ -28,7 +28,7 @@ import uy.kohesive.injekt.injectLazy
 class Desu : HttpSource() {
     override val name = "Desu"
 
-    override val baseUrl = "https://desu.me"
+    override val baseUrl = "https://desu-proxy-server.vercel.app"
 
     override val lang = "ru"
 

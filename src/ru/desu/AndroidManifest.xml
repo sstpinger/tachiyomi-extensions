@@ -16,7 +16,7 @@
 
                 <!-- DesuActivity sites can be added here. -->
                 <data
-                    android:host="desu.me"
+                    android:host="desu-proxy-server.vercel.app"
                     android:pathPattern="/manga/..*"
                     android:scheme="https" />
             </intent-filter>
